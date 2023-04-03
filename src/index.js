@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Navbar from './navbar/Navbar';
-import Main from './content/Main';
-import Footer from './content/footer/Footer';
-import './tailwind.css'
+import Navbar from './components/navbar/Navbar';
+import Main from './Main';
+import Footer from './components/footer/Footer';
+import './assets/css/tailwind.css'
+import './assets/css/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

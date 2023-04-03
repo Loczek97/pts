@@ -18,8 +18,8 @@ export default class Navbar extends Component {
     const { isMenuVisible } = this.state;
 
     return (
-      <nav className='bg-gray-900 p-5 m-0 shadow md:flex md:items-center justify-between md:py-0 w-full z-20 sticky top-0'>
-        <div className="flex justify-between items-center ">
+      <nav className='bg-gray-900 p-5 m-0 shadow md:flex md:items-center justify-between md:py-0 w-full z-30 sticky top-0'>
+        <div className="flex justify-between items-center">
           <span className='text-yellow-400 font-bold text-2xl cursor-pointer'>
             PTS
           </span>
@@ -28,9 +28,9 @@ export default class Navbar extends Component {
           </span>
         </div>
 
-        <ul className={`md:flex md:items-center bg-gray-900 z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto py-4 md:pl-0 pl-7 md:opacity-100 ${isMenuVisible ? 'opacity-100 top-10' : 'opacity-0 top=-400'} transition-all ease-in duration-200`}>
+        <ul className={`md:flex md:items-center bg-gray-900 z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto py-4 md:pl-0 pl-7 md:opacity-100 ${isMenuVisible ? 'top-10' : '-top-[200%]'} transition-all ease-in duration-200`}>
           <li className='mx-4 my-6 md:my-0'>
-            <a href="" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Usługi</a>
+            <a href="#services" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Usługi</a>
           </li>
           <li className='mx-4 my-6 md:my-0'>
             <a href="" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Kontakt</a>
