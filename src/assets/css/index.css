@@ -2,7 +2,6 @@
     scroll-behavior: smooth;
 }
 
-span.special {
+.special {
     color: #fbbf24;
-    text-decoration: underline;
 }
