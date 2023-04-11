@@ -33,7 +33,7 @@ export default class Navbar extends Component {
             <a href="#services" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Usługi</a>
           </li>
           <li className='mx-4 my-6 md:my-0'>
-            <a href="" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Kontakt</a>
+            <a href="#contact" className='text-white text-lg font-bold hover:text-yellow-400 duration-200'>Kontakt</a>
           </li>
         </ul>
       </nav>
