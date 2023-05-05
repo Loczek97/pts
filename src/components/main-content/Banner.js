@@ -14,7 +14,7 @@ export default function Banner() {
         <section
             id='banner'
             style={{ backgroundImage: `url(${background})` }}
-            className='z-10 bg-cover bg-center bg-fixed h-screen flex items-center justify-center top=-5 before:content-[""] before:w-full before:h-full before:bg-black before:opacity-[0.65] before:absolute'>
+            className='z-10 bg-cover bg-center bg-fixed h-screen flex items-center justify-center top=-5 before:content-[""] before:w-screen before:h-screen before:bg-black before:opacity-[0.65] before:absolute'>
             <div className='flex flex-col justify-center z-20'>
                 <h1 className='text-center text-3xl md:text-4xl font-bold text-white flex flex-col'>
                     <span className='py-3'>Usługi ziemne dopasowane do</span>
