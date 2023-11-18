@@ -14,11 +14,7 @@ export default function Contact() {
                         <div className='flex flex-col justify-evenly'>
                             <p className='text-white mt-4 font-bold'>
                                 <i className="fa-solid fa-phone fa-shake text-yellow-400 mr-2"></i>
-                                <a href="tel:+48537765431">537-765-431</a>
-                            </p>
-                            <p className='text-white mt-4 font-bold'>
-                                <i className="fa-solid fa-phone fa-shake text-yellow-400 mr-2"></i>
-                                <a href="tel:+48538605122">538-605-122 </a>
+                                <a href="tel:+48780641476">780 641 476</a>
                             </p>
                             <p className='text-white mt-4 font-bold'>
                                 <i className="fa-solid fa-envelope fa-beat text-yellow-400 mr-2"></i><a href="mailto:ps.strzalka@gmail.com">
